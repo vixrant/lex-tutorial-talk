@@ -4,7 +4,7 @@
 
 ![Lexer operation](./imgs/lexer.png)
 
-### Lexical Analysis
+### Tokens
 
 <token, value>
 
@@ -14,7 +14,7 @@
 
 Hence, we have <ID, "x">, <INT, 5>
 
-### Lexical Analysis
+### Lexer as DFA
 
 ![Lexical Analysis as a DFA](./imgs/dfa.jpg){#fig:dfa height="4cm"}
 
