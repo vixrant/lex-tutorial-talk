@@ -156,7 +156,7 @@ change the return type by modifying YYDECL macro (advanced).
 ]
 ```
 
-Where $[ block ]$ means optional
+Where \[ block \] means optional
 
 **Standard structure:** This structure is used in all Lex implementations.
 Yacc and its implementations also uses same structure!
@@ -202,9 +202,9 @@ EXIT;
 ![Steps to compile Lex and Yacc/ Flex and
 Bison](imgs/yacc.png)
 
-**yylval:** yylval, defined in $.tab.c$, is used to store data related to
-tokens (value from $<token, value>$). It's datatype is defined using
-YYSTYPE macro and is usually defined using Yacc/ Bison.
+**yylval:** yylval, defined in parser.tab.c, is used to store data related to
+tokens (value from <token, value>). It's datatype is defined using
+YYSTYPE macro and is usually defined by Yacc/ Bison.
 
 ### Example 5
 
@@ -241,7 +241,7 @@ Code is generated using Yacc/ Bison.
 
 [1] Tom Niemann. Lex yacc tutorial. URL https://cse.iitkgp.ac.in/~bivasm/notes/LexAndYaccTutorial.pdf.
 
-[2] John Millaway Vern Paxson, Will Estes. Lexical analysis with flex. 2012. URL https://www.iith.ac.in/~ramakrishna/Compilers- Aug14/doc/flex.pdf.
+[2] John Millaway Vern Paxson, Will Estes. Lexical analysis with flex. 2012. URL https://www.iith.ac.in/~ramakrishna/Compilers-Aug14/doc/flex.pdf.
 
 [3] Keith Schwarz Julie Zelenski. flex in a nutshell. 2012. URL https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/handouts/050%20Flex%20In%20A%20Nutshell.pdf.
 
